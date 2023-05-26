@@ -1,0 +1,25 @@
+.bg-image{
+    background-image: url(https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);   
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    top: 30px; left: 30px; right: 30px; bottom: 30px;
+}
+
+.bg-dark-gradient {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+
+
+// 斷點sm時替換合適的圖片
+@include media-breakpoint-down(sm) { 
+
+.bg-image{
+
+    background-image: url('https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80');
+}
+
+ }
+
