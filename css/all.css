@@ -8046,7 +8046,7 @@ textarea.form-control-lg {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed !important;
+  background-attachment: fixed;
   top: 30px;
   left: 30px;
   right: 30px;
@@ -8060,5 +8060,6 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .bg-image {
     background-image: url("https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80");
+    background-attachment: scroll;
   }
 }/*# sourceMappingURL=all.css.map */
